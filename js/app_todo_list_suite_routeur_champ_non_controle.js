@@ -115,7 +115,8 @@ const Task = (props) => {
     //si la tache est complete :
     ? <strike> #{props.task.id} - {props.task.description}  ✅</strike>
     //si la tache n'est pas complete :
-    : <span>#{props.task.id} - {props.task.description}</span>
+    : <span>#{props.task.id} - {props.task.description} ❌
+    </span>
 
 return <article><h1>{placeholder}</h1></article>
 }
